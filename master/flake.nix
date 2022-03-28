@@ -11,7 +11,6 @@
   inputs.src-euclidean-master.ref   = "refs/heads/master";
   inputs.src-euclidean-master.owner = "juancarlospaco";
   inputs.src-euclidean-master.repo  = "nim-euclidean";
-  inputs.src-euclidean-master.dir   = "";
   inputs.src-euclidean-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
